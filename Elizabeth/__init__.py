@@ -3,7 +3,7 @@ import time
 import os
 import sys
 import spamwatch
-from telethn import TelegramClient
+from telethon import TelegramClient
 import telegram.ext as tg
 
 # enable logging
