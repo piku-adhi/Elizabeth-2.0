@@ -1,5 +1,5 @@
-from MashaRoBot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from MashaRoBot import DRAGONS
+from Elizabeth.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from Elezabeth import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
