@@ -1,13 +1,13 @@
-from MashaRoBot import telethn as bot
-from MashaRoBot import telethn as tbot
-from MashaRoBot.events import register
+from Elizabeth import telethn as bot
+from Elizabeth import telethn as tbot
+from Elizabeth.events import register
 from telethon import *
 from telethon import Button, custom, events, functions
-from MashaRoBot.helper_extra.badmedia import is_nsfw
+from Elizabeth.helper_extra.badmedia import is_nsfw
 import requests
 import string 
 import random 
-from MashaRoBot.modules.sql_extended.nsfw_watch_sql import add_nsfwatch, rmnsfwatch, get_all_nsfw_enabled_chat, is_nsfwatch_indb
+from Elizabeth.modules.sql_extended.nsfw_watch_sql import add_nsfwatch, rmnsfwatch, get_all_nsfw_enabled_chat, is_nsfwatch_indb
 from telethon.tl.types import (
     ChannelParticipantsAdmins,
     ChatAdminRights,
