@@ -1,6 +1,6 @@
 import heroku3
 
-from MashaRoBot import HEROKU_API_KEY, HEROKU_APP_NAME
+from Elizabeth import HEROKU_API_KEY, HEROKU_APP_NAME
 
 herokuclient = heroku3.from_key(HEROKU_API_KEY)
 
