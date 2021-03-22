@@ -47,3 +47,4 @@ fontTools
 bing_image_downloader
 instantmusic
 apscheduler
+telethn
