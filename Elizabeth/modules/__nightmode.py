@@ -4,7 +4,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import functions
 from telethon import types
 from Elizabeth.events import register
-from MashaRoBot import telethn as tbot
+from Elizabeth import telethn as tbot
 import os
 
 
