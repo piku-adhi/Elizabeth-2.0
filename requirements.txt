@@ -48,4 +48,5 @@ bing_image_downloader
 instantmusic
 apscheduler
 Telegraph
+heroku3
 
