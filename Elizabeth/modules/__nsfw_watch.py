@@ -1,5 +1,5 @@
-from Elizabeth import telethn as bot
-from Elizabeth import telethn as tbot
+from Elizabeth import client as bot
+from Elizabeth import client as tbot
 from Elizabeth.events import register
 from telethon import *
 from telethon import Button, custom, events, functions
