@@ -1,4 +1,4 @@
-# Elizabeth
+# Elizabeth 2.0
 <p align="center">
     <a href="https://github.com/MR-SHRLCK/Elizabeth-2.0/commits/master"><img src="https://img.shields.io/github/last-commit/MR-SHRLCK/Elizabeth-2.0/master?label=Last%20Commit&style=flat-square&logo=github&color=F10070" alt="Commit" /></a>
     <a href="https://github.com/MR-SHRLCK/Elizabeth-2.0/stargazers"><img src="https://img.shields.io/github/stars/MR-SHRLCK/Elizabeth-2.0?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
