@@ -3,7 +3,7 @@
 
 import requests
 url = "https://iamai.p.rapidapi.com/ask"
-from Elizabeth import telethn, OWNER_ID
+from Elizabeth import client, OWNER_ID
 from Elizabeth.events import register
 from telethon import events
 from telethon import types
