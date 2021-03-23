@@ -1,4 +1,4 @@
-from MashaRoBot import telethn as tbot
+from Elizabeth import telethn as tbot
 import requests
 import time
 
