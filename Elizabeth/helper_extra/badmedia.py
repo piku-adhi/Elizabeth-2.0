@@ -1,4 +1,4 @@
-from Elizabeth import telethn as tbot
+from Elizabeth import client as tbot
 import requests
 import time
 
