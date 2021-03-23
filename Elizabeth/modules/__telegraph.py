@@ -1,5 +1,5 @@
-from MashaRoBot.events import register
-from MashaRoBot import telethn as tbot
+from Elizabeth.events import register
+from Elizabeth import client as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
@@ -12,7 +12,7 @@ r = telegraph.create_account(short_name=darkprince)
 auth_url = r["auth_url"]
 
 
-@register(pattern="^/t(m|t) ?(.*)")
+@register(pattern="^/telegraph(m|t) ?(.*)")
 async def _(event):
     if event.fwd_from:
         return
