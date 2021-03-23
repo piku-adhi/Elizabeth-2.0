@@ -31,7 +31,7 @@ async def hmm(event):
   if "no no" in result:
    pro = "I am fairly yound and I was made by @Mr_Dark_Prince."
    try:
-      async with telethn.action(event.chat_id, 'typing'):
+      async with client.action(event.chat_id, 'typing'):
            await asyncio.sleep(2)
            await event.reply(pro)
    except CFError as e:
@@ -39,14 +39,14 @@ async def hmm(event):
   elif "ann" in result:
    pro = "My name is Masha"
    try:
-      async with telethn.action(event.chat_id, 'typing'):
+      async with client.action(event.chat_id, 'typing'):
            await asyncio.sleep(2)
            await event.reply(pro)
    except CFError as e:
            print(e)
   else:
     try:
-      async with telethn.action(event.chat_id, 'typing'):
+      async with client.action(event.chat_id, 'typing'):
            await asyncio.sleep(2)
            await event.reply(result)
     except CFError as e:
