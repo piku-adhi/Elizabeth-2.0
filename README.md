@@ -1,4 +1,4 @@
-# єlízαвєth 2.0
+# ᴇʟɪᴢᴀʙᴇᴛʜ 2.0
 A simple Telegram Group management bot based on Telethon .
 
 <p align="left">
