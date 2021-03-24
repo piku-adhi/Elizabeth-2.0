@@ -116,7 +116,7 @@ def info(update, context):
         return
 
     del_msg = msg.reply_text(
-        "Hold tight while I steal some data from <b>FBI Database</b>...",
+        "Please wait elizabeth will fetching details From <b>SHERLOCK Database</b>...",
         parse_mode=ParseMode.HTML,
     )
 
@@ -166,7 +166,7 @@ def info(update, context):
         if sw:
             text += "\n\n<b>This person is banned in Spamwatch!</b>"
             text += f"\n<b>Reason:</b> <pre>{sw.reason}</pre>"
-            text += "\nAppeal at @SpamWatchSupport"
+            text += "\nAppeal at @GithubRespiratoriesChat"
         else:
             pass
     except BaseException:
@@ -176,7 +176,7 @@ def info(update, context):
     if cas_banned:
         text += "\n\n<b>This Person is CAS Banned!</b>"
         text += f"\n<b>Reason: </b> <a href='{cas_banned}'>CAS Banned</a>"
-        text += "\nAppeal at @cas_discussion"
+        text += "\nAppeal at @GithubRespiratoriesChat"
 
     if user.id == OWNER_ID:
         text += "\n\nAye this guy is my owner.\nI would never do anything against him!"
