@@ -6,7 +6,7 @@ from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
 import Elizabeth.modules.sql.approve_sql as sql
-from Elizabeth import DRAGONS, dispatcher
+from Elizabeth import SUDO_USERS, dispatcher
 from Elizabeth.modules.disable import DisableAbleCommandHandler
 from Elizabeth.modules.helper_funcs.chat_status import user_admin
 from Elizabeth.modules.helper_funcs.extraction import extract_user
