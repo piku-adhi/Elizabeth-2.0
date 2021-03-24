@@ -1,6 +1,6 @@
 # 🙈 Give me ⭐️ before kanging code
 # © @Mr_Dark_Prince 🌚
-
+# modified by @mr_srlock
 import requests
 url = "https://iamai.p.rapidapi.com/ask"
 from Elizabeth import client, OWNER_ID
@@ -29,7 +29,7 @@ async def hmm(event):
   lodu = response.json()
   result = (lodu['message']['text'])
   if "no no" in result:
-   pro = "I am fairly yound and I was made by @Mr_Dark_Prince."
+   pro = "I am fairly yound and I was made by @mr_srlock."
    try:
       async with client.action(event.chat_id, 'typing'):
            await asyncio.sleep(2)
