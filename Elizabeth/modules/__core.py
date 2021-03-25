@@ -1,4 +1,4 @@
-from Elizabeth import clinet as tbot
+from Elizabeth import client as tbot
 from Elizabeth.events import register
 import os
 import asyncio
