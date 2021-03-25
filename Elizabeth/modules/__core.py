@@ -9,7 +9,7 @@ from Elizabeth import OWNER_ID
 from Elizabeth import TEMP_DOWNLOAD_DIRECTORY as path
 from Elizabeth import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './MashaRoBot/resources/Elizabeth.jpg'
+water = './Elizabeth/resources/Elizabeth.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
