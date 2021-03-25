@@ -1,15 +1,15 @@
-from MashaRoBot import telethn as tbot
-from MashaRoBot.events import register
+from Elizabeth import clinet as tbot
+from Elizabeth.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from MashaRoBot import OWNER_ID
-from MashaRoBot import TEMP_DOWNLOAD_DIRECTORY as path
-from MashaRoBot import TEMP_DOWNLOAD_DIRECTORY
+from Elizabeth import OWNER_ID
+from Elizabeth import TEMP_DOWNLOAD_DIRECTORY as path
+from Elizabeth import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './MashaRoBot/resources/masha.jpg'
+water = './Elizabeth/resources/Elizabeth.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -36,7 +36,7 @@ async def Prof(event):
         await event.reply("No File Found!")
 
 
-from MashaRoBot.events import load_module
+from Elizabeth.events import load_module
 import asyncio
 import os
 from datetime import datetime
@@ -55,7 +55,7 @@ async def install(event):
             downloaded_file_name = (
                 await event.client.download_media(  # pylint:disable=E0602
                     await event.get_reply_message(),
-                    "MashaRoBot/modules/",  # pylint:disable=E0602
+                    "Elizabeth/modules/",  # pylint:disable=E0602
                 )
             )
             if "(" not in downloaded_file_name:
