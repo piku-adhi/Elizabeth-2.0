@@ -36,7 +36,7 @@ async def Prof(event):
         await event.reply("No File Found!")
 
 
-from Elizabeth.events import ALL_MODULES
+from Elizabeth.events import LOAD_MODULES
 import asyncio
 import os
 from datetime import datetime
