@@ -6,8 +6,7 @@ import wget
 from pyrogram import filters
 
 from Elizabeth import pbot as Jebot
-from Elizabeth.pyrogramee.dark import get_arg
-
+from Elizabeth.pyrogramee import dark 
 
 @Jebot.on_message(filters.command("saavn"))
 async def song(client, message):
