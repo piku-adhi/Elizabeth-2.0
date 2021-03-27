@@ -49,4 +49,5 @@ instantmusic
 apscheduler
 Telegraph
 heroku3
+pyrogram
 
