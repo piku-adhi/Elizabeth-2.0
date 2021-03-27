@@ -121,7 +121,7 @@ if ENV:
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    REM_BG_API_KEY = is.environ.get("REB_BG_API_KEY",None)
+    REM_BG_API_KEY = os.environ.get("REB_BG_API_KEY",None)
 
 else:
     from Elizabeth.config import Development as Config
