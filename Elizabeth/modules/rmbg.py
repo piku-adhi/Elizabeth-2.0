@@ -15,7 +15,7 @@
 
 
 
-from DaisyX.services.telethon import tbot
+from Elizabeth.services.telethon import tbot
 import io
 import os
 from datetime import datetime
@@ -24,8 +24,8 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from DaisyX.services.events import register
-from DaisyX.config import get_str_key
+from Elizabeth.services.events import register
+from Elizabeth.config import get_str_key
 REM_BG_API_KEY = get_str_key("REM_BG_API_KEY", required=False)
 TEMP_DOWNLOAD_DIRECTORY = "./"
 async def is_register_admin(chat, user):
