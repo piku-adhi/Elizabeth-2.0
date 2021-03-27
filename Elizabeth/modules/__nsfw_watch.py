@@ -110,7 +110,7 @@ async def ws(event):
             return
 
 __help__ = """
-Masha can protect your group from NSFW senders
+Elizabeth can protect your group from NSFW senders
  ❍ /addnsfw*:* Adds The Group to nsfw Watch List
  ❍ /rmnsfw*:* Removes The Group From nsfw Watch List
 """
