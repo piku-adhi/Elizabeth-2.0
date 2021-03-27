@@ -1,5 +1,5 @@
 from Elizabeth.events import register
-from Elizabeth import telethn as tbot
+from Elizabeth import client as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
