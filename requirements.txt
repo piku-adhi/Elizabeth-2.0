@@ -50,4 +50,5 @@ apscheduler
 Telegraph
 heroku3
 pyrogram
+aiohttp
 
