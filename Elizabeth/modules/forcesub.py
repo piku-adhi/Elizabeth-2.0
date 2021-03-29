@@ -12,7 +12,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from Elizabeth import DRAGONS as SUDO_USERS
+from Elizabeth import DEV_USERS as SUDO_USERS
 from Elizabeth import pbot
 from Elizabeth.modules.sql_extended import forceSubscribe_sql as sql
 
