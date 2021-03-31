@@ -53,4 +53,5 @@ pyrogram
 aiohttp
 pbot
 youtube_search
+search_engine_parser
 
