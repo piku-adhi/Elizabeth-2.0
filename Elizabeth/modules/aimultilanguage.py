@@ -1,16 +1,16 @@
 # credits @RoseLoverX @InukaASiTH
 # ported to masha @Mr_dark_prince
-from MashaRoBot import OWNER_ID, BOT_ID
-from MashaRoBot import telethn as tbot
-import MashaRoBot.modules.sql.aihelp_sql as sql
-import MashaRoBot.modules.sql.chatbot_sql as ly
+from Elizabeth import OWNER_ID, BOT_ID
+from Elizabeth import client as tbot
+import Elizabeth.modules.sql.aihelp_sql as sql
+import Elizabeth.modules.sql.chatbot_sql as ly
 from google_trans_new import google_translator
 translator = google_translator()
 import requests
 
 
 from telethon import events
-from MashaRoBot.events import register
+from Elizabeth.events import register
 
 string = (
   "I belong To Mr_dark_prince!",
