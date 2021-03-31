@@ -1,6 +1,6 @@
 # credits @RoseLoverX @InukaASiTH
 # ported to masha @Mr_dark_prince
-from Elizabeth import OWNER_ID, BOT_ID
+from Elizabeth import OWNER_ID, TOKEN
 from Elizabeth import client as tbot
 import Elizabeth.modules.sql.aihelp_sql as sql
 import Elizabeth.modules.sql.chatbot_sql as ly
