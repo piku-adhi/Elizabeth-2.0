@@ -1,6 +1,6 @@
 import threading
 
-from MashaRoBot.modules.sql import BASE, SESSION
+from Elizabeth.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String
 
 
