@@ -114,7 +114,7 @@ def load_module(shortname):
         mod = importlib.util.module_from_spec(spec)
         mod.register = register
         mod.masharobot = masharobot
-        mod.tbot = telethn
+        mod.tbot = client
         mod.logger = logging.getLogger(shortname)
         spec.loader.exec_module(mod)
         sys.modules["Elizabeth.modules." + shortname] = mod
