@@ -181,10 +181,10 @@ if __name__ == "__main__":
     main()
 
 __help__ = """
- ⦁ `/transfersh`*:* reply to a telegram file to upload it on transfersh and get direct download link
- ⦁ `/tmpninja`*:* reply to a telegram file to upload it on tmpninja and get direct download link
+ ➩ /transfersh: reply to a telegram file to upload it on transfersh and get direct download link
+ ➩ /tmpninja`*:* reply to a telegram file to upload it on tmpninja and get direct download link
 
-© @TheElizabethBot 👸
+
 """
 
-__mod_name__ = "File To Link 🔗"
+__mod_name__ = "File To Link"
