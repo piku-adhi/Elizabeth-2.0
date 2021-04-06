@@ -7,9 +7,9 @@ import traceback
 import aiohttp
 from telethon import events
 
-from Mizuki import telethn as bot
-from Mizuki.modules.urluploader import download_file
-from Mizuki.uputils import humanbytes, progress
+from Elizabeth import telethn as bot
+from Elizabeth.modules.urluploader import download_file
+from Elizabeth.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
 
