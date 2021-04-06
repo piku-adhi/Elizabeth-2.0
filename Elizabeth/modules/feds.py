@@ -43,7 +43,7 @@ from Elizabeth.modules.helper_funcs.string_handling import markdown_parser
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha 2018-2019
-# Federation rework by Mizukito Akito 2019
+# Federation rework by Elizabethto Akito 2019
 # Federation update v2 by Ayra Hikari 2019
 #
 # Time spended on feds = 10h by #MrYacha
@@ -52,7 +52,7 @@ from Elizabeth.modules.helper_funcs.string_handling import markdown_parser
 #
 # Total spended for making this features is 68+ hours
 
-# LOGGER.info("Original federation module by MrYacha, reworked by Mizukito Akito (@peaktogoo) on Telegram.")
+# LOGGER.info("Original federation module by MrYacha, reworked by Elizabethto Akito (@peaktogoo) on Telegram.")
 
 # TODO: Fix Loads of code duplication
 
