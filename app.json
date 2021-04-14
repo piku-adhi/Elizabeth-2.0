@@ -140,6 +140,7 @@
     "ALLOW_EXCL": {
       "description": "No need change",
       "value": "True"
+    },
 
     "HEROKU_API_KEY" : {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
