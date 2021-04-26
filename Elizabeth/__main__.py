@@ -41,7 +41,7 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 PM_START_TEXT = f"""
 `Hi..Welcome` [🦋](https://telegra.ph/file/8726fa898eead0617f774.jpg)
 `I'm`  єlízαвєth
-`I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..`
+`I'm here to help you umbkioooyour groups.. Click Help button to find out more about how to use me to my full potential..`
 """
 
 buttons = [[InlineKeyboardButton(text=" HELP AND COMMANDS ❓",
